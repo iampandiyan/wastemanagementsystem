@@ -1,0 +1,90 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: blue;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    width: 128%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+li:hover{
+    background: rgba(0,0,0,0.2);
+}
+
+h1,form {
+    padding: 1em;
+    overflow: hidden;
+}
+span {
+      width:180px;
+      clear:left;
+      text-align:right;
+      padding-right:10px;
+      float:left;
+}
+#msg {
+  display: none;
+  font-family: arial;
+  font-size: 20px;
+    padding: 1em;
+  margin-left: 220px;
+  border-left: 1px solid gray;
+}
+#hmCntnt,#cmpCntnt,#abtCntnt,#viewCntnt{
+  display: none;
+    padding: 1em;
+  margin-left: 220px;
+  border-left: 1px solid gray;
+}
+input, span {
+  margin-top: 5px;
+}
+legend {
+  font-family: arial;
+  font-size: 20px;
+  overflow: hidden;
+}
+table {
+  margin-top: 50px;
+}
+table#viewTable tr:nth-child(even) {
+  font-family: arial;
+  font-size: 20px;
+    background-color: #eee;
+}
+table#viewTable tr:nth-child(odd) {
+  font-family: arial;
+  font-size: 20px;
+   background-color:#fff;
+}
+table#viewTable th {
+  font-family: arial;
+  font-size: 20px;
+    background-color: black;
+    color: white;
+}

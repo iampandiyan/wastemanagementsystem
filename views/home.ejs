@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js" integrity="sha384-R4/ztc4ZlRqWjqIuvf6RX5yb/v90qNGx6fS48N0tRxiGkqveZETq72KgDVJCp2TC" crossorigin="anonymous" ></script>
+  <script type="text/javascript" src="/assets/wmsEventHandler.js"></script>
+  <link href="/assets/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="container">
+<header>
+   Complaint Management System
+</header>
+<nav>
+  <ul>
+    <li id='hmHdr'>Home</a></li>
+    <li id='cmpHdr'>Add Complaint</a></li>
+    <li id='vewHdr'>View Complaints</a></li>
+    <li id='abtHdr'>About US</a></li>
+  </ul>
+</nav>
+
+<div id='hmCntnt'>
+<h1>Home</h1>
+</div>
+
+<div id='cmpCntnt'>
+<form id='addCmplnt'>
+  <fieldset>
+    <legend>Add New Complaint</legend>
+    <span>City</span><input id="city" type="text" required /><br />
+    <span>Area</span><input id="area" type="text" required /><br />
+    <span>Detail</span><input id="cmplntDtl" type="text" required /><br />
+    <span>Raised by</span><input id='raisedBy' type="text" required /><br />
+    <button  type="submit" style="margin-left: 230px;margin-top: 10px">Add Complaint</button>
+</fieldset>
+</form>
+</div>
+
+<div id='abtCntnt'>
+<h1>About US</h1>
+</div>
+
+<div id='viewCntnt'>
+  <table id='viewTable'>
+    <tr>
+      <th>City</th>
+      <th>Area</th>
+      <th>Detail</th>
+      <th>Raised By</th>
+    </tr>
+  </table>
+</div>
+
+<div id='msg'></div>
+<footer>Copyright © iampandiyan.blogspot.in</footer>
+</div>
+
+</body>
+
+</html>
